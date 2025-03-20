@@ -4,10 +4,10 @@ import {
   ClerkProvider
 } from '@clerk/nextjs'
 import "./globals.css";
-import { ThemeProvider } from "@/providers/theme-provider";
-import ReactQueryProvider from "@/providers/react-query-provider";
+import { ThemeProvider } from "./src/providers/theme-provider";
+import ReactQueryProvider from "./src/providers/react-query-provider";
 import { Toaster } from "sonner";
-import ReduxProvider from "@/providers/redux-provider";
+import ReduxProvider from "./src/providers/redux-provider";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
